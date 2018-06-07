@@ -82,7 +82,7 @@ namespace App4
             alertDialog.SetMessage(message);
             alertDialog.SetIcon(Android.Resource.Drawable.IcDialogInfo);
             alertDialog.SetCancelable(false);
-            alertDialog.SetButton("OK", OKBOtton);
+            alertDialog.SetButton("OK", OKBOtton); 
             alertDialog.Show();
         }
 
